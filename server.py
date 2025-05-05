@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template
 import requests
 app = Flask(__name__)
 
-GEMINI_API_KEY = 'AIzaSyCcyaERy2bxQvsH6AF5eGRPIDku9My5v9U'
+GEMINI_API_KEY = 'ENTER_YOUR_GEMINI_API_KEY_HERE'
 
 NEIGHBORHOOD_WATCH_KEYWORDS = [
     # Core terms
